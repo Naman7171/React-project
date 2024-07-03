@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1526470498-6a453e4e3f6e') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-card {
+    background: rgba(0, 51, 102, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.weather-card h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #99ccff;
+}
+
+.weather-card h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #cce6ff;
+}
+
+.weather-card p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.day {
+    flex: 1;
+    margin: 0 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.day:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.day h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #99ccff;
+}
+
+.day p {
+    font-size: 1em;
+}
